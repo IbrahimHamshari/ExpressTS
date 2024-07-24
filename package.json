@@ -1,0 +1,27 @@
+{
+  "name": "expressts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ",
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "concurrently \"npx tsc -w\" \"nodemon dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "winston": "^3.13.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.12",
+    "jest": "^29.7.0",
+    "typescript": "^5.5.4"
+  }
+}
